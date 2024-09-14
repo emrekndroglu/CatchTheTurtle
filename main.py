@@ -17,8 +17,8 @@ def setup_score_turtle():
     score_turtle.color("black")
     score_turtle.penup()
 
-    top_height = screen.window_height() / 2  # positive height/2 is the top of the screen
-    y = top_height - top_height / 10  # decreasing a bit so text will be visible
+    top_height = screen.window_height() / 2
+    y = top_height - top_height / 10
     score_turtle.setposition(0, y)
     score_turtle.write(arg='Score: 0', move=False, align='center', font=FONT)
 
